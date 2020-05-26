@@ -1,8 +1,9 @@
+for (i=0; i<=5; i++){
 var userInput = prompt("Do you choose rock, paper or scissors?");
 var computerOutput = Math.random();
-if (computerOutput < 0.34) {
+if (computerOutput < 1/3) {
   computerOutput = "rock";
-} else if (computerOutput <= 0.67) {
+} else if (computerOutput <= 2/3) {
   computerOutput = "paper";
 } else {
   computerOutput = "scissors";
@@ -35,3 +36,4 @@ function compare(input1, input2) {
  alert('User Input: ' + userInput + ' Computer Input:  ' + computerOutput + ' Compare ' + compare(userInput, computerOutput));
 
 
+}
