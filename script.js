@@ -24,6 +24,12 @@ function compare(input1, input2) {
     } else {
       return "scissors wins";
     }
+  }else if (input2 === "scissors") {
+    if (input2 === "rock") {
+      return "rock wins";
+    } else {
+      return "scissors wins";
+    }
   }
 }
  alert('User Input: ' + userInput + ' Computer Input:  ' + computerOutput + ' Compare ' + compare(userInput, computerOutput));
