@@ -7,7 +7,7 @@ if (computerOutput < 0.34) {
 } else {
   computerOutput = "scissors";
 }
-alert("Computer Input: " + computerOutput);
+
 
 function compare(input1, input2) {
   if (input1 === input2) {
@@ -26,6 +26,6 @@ function compare(input1, input2) {
     }
   }
 }
- alert(compare(userInput, computerOutput));
+ alert('User Input: ' + userInput + ' Computer Input:  ' + computerOutput + ' Compare ' + compare(userInput, computerOutput));
 
-alert("User Input: " + userInput);
+
