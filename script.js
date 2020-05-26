@@ -18,13 +18,13 @@ function compare(input1, input2) {
     } else {
       return "paper wins";
     }
-  } else if (input2 === "paper") {
+  } else if (input1 === "paper") {
     if (input2 === "rock") {
       return "paper wins";
     } else {
       return "scissors wins";
     }
-  }else if (input2 === "scissors") {
+  }else if (input1 === "scissors") {
     if (input2 === "rock") {
       return "rock wins";
     } else {
