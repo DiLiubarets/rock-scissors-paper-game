@@ -1,3 +1,8 @@
+window.addEventListener('load', (event) => {
+  setTimeout(function() {init()}, 200);
+});
+
+function init() {
 for (i=0; i<=5; i++){
 var userInput = prompt("Do you choose rock, paper or scissors?");
 var computerOutput = Math.random();
@@ -36,4 +41,5 @@ function compare(input1, input2) {
  alert('User Input: ' + userInput + ' Computer Input:  ' + computerOutput + ' Compare ' + compare(userInput, computerOutput));
 
 
+}
 }
